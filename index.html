@@ -14,12 +14,95 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Frontend Mentor | Social links profile</title>
   </head>
   <body>
-    <div class="wrapper">
-      <main></main>
-    </div>
+    <main>
+      <article class="profile-card">
+        <header class="profile-card__header">
+          <picture>
+            <source
+              srcset="./assets/images/avatar-jessica.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="./assets/images/avatar-jessica.webp"
+              type="image/webp"
+            />
+            <img
+              class="profile-card__avatar"
+              src="./assets/images/avatar-jessica.jpeg"
+              alt="Avatar of a girl named Jessica Randall"
+            />
+          </picture>
+          <h1 class="profile-card__name">Jessica Randall</h1>
+          <p class="profile-card__location">London, United Kingdom</p>
+          <blockquote class="profile-card__quote">
+            &quot;Front-end developer and avid reader.&quot;
+          </blockquote>
+        </header>
+        <address>
+          <ul>
+            <li class="profile-card__list-item">
+              <a
+                class="profile-card__link"
+                href="https://www.github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link that will take you to GitHub."
+                >GitHub</a
+              >
+            </li>
+            <li class="profile-card__list-item">
+              <a
+                class="profile-card__link"
+                href="https://www.frontendmentor.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link that will take you to Frontend Mentor."
+                >Frontend Mentor</a
+              >
+            </li>
+            <li class="profile-card__list-item">
+              <a
+                class="profile-card__link"
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link that will take you to LinkedIn."
+                >LinkedIn</a
+              >
+            </li>
+            <li class="profile-card__list-item">
+              <a
+                class="profile-card__link"
+                href="https://www.x.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link that will take you to Twitter (now called X)."
+                >Twitter</a
+              >
+            </li>
+            <li class="profile-card__list-item">
+              <a
+                class="profile-card__link"
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link that will take you to Instagram."
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </address>
+      </article>
+    </main>
   </body>
 </html>

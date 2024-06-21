@@ -16,7 +16,6 @@
 .prettierignore
 
 # Other
-_fonts/
 design/
 info.html
 README.md
