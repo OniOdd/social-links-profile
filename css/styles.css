@@ -66,6 +66,7 @@ a {
 /* Profile card */
 
 .profile-card {
+  inline-size: 100%;
   max-inline-size: 384px;
   padding: 21px 24px 24px;
   background-color: var(--clr-dark-grey);
@@ -124,4 +125,16 @@ a {
 
 .profile-card__link:active {
   background-color: hsl(75, 94%, 40%);
+}
+
+/* Media queries */
+
+@media (min-width: 434px) {
+  .profile-card {
+    padding: 40px;
+  }
+
+  .profile-card__avatar {
+    margin-block-end: 1.625rem;
+  }
 }
